@@ -19,15 +19,11 @@ const AddTodo = () => {
     }
 
     return(
-      
              <form onSubmit={handleFormSubmit}>
 
               <input type="text" name="title" id="title" placeholder="Nova tarefa..." onChange={handleInputChange} />
                
              </form>
-
-        
-       
     )
 }
 export default AddTodo;
