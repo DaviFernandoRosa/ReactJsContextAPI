@@ -8,15 +8,13 @@ import AddTodo from './components/AddTodo';
 const  App = () => {
   
   return (
-    
-      <TodoProvider>
-          <TodoList></TodoList>
-          <br />
-          <hr />
-          <br />
-          <AddTodo></AddTodo>
-      </TodoProvider>
+            <TodoProvider>
+                <TodoList></TodoList>
+                <br />
+                <hr />
+                <br />
+                <AddTodo></AddTodo>
+            </TodoProvider>
   );
 }
-
 export default App;
