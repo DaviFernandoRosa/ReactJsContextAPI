@@ -20,7 +20,6 @@ const TodoProvider = ({children}) =>{
         };
         setTodos([...todos, newTodo]);
     }
-
     return(
         <TodoContext value={todos, saveTodo}>
              {children}
