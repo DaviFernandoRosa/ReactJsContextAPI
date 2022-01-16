@@ -5,7 +5,6 @@ import TodoList from './components/TodoList';
 import AddTodo from './components/AddTodo';
 
 const  App = () => {
-  
   return (
             <TodoProvider>
                 <TodoList></TodoList>
