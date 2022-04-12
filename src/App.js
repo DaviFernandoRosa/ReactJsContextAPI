@@ -12,6 +12,7 @@ const  App = () => {
                 <hr />
                 <br />
                 <AddTodo></AddTodo>
+    
             </TodoProvider>
   );
 }
